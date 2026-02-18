@@ -92,7 +92,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'bench_press_barbell',
     name: 'Supino reto',
-    gif: require('./exercises/bench_press_barbell.gif'),
+    gif: require('./exercises/bench_press_barbell.mp4'),
     primaryMuscle: 'Peito',
     equipment: 'Barra',
     aliases: ['bench press', 'supino barra', 'supino reto barra'],
@@ -108,7 +108,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'bench_press_dumbbell',
     name: 'Supino reto com halteres',
-    gif: require('./exercises/bench_press_dumbbell.gif'),
+    gif: require('./exercises/bench_press_dumbbell.mp4'),
     primaryMuscle: 'Peito',
     equipment: 'Halter',
     aliases: ['dumbbell bench press', 'supino halteres'],
@@ -124,7 +124,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'bench_press_smith',
     name: 'Supino reto no smith',
-    gif: require('./exercises/bench_press_smith.gif'),
+    gif: require('./exercises/bench_press_smith.mp4'),
     primaryMuscle: 'Peito',
     equipment: 'Smith',
     aliases: ['smith bench press', 'supino smith'],
@@ -140,7 +140,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'incline_bench_press_barbell',
     name: 'Supino inclinado',
-    gif: require('./exercises/incline_bench_press_barbell.gif'),
+    gif: require('./exercises/incline_bench_press_barbell.mp4'),
     primaryMuscle: 'Peito',
     equipment: 'Barra',
     aliases: ['incline bench press', 'supino inclinado barra'],
@@ -156,7 +156,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'incline_bench_press_dumbbell',
     name: 'Supino inclinado com halteres',
-    gif: require('./exercises/incline_bench_press_dumbbell.gif'),
+    gif: require('./exercises/incline_bench_press_dumbbell.mp4'),
     primaryMuscle: 'Peito',
     equipment: 'Halter',
     aliases: ['incline dumbbell press', 'supino inclinado halteres'],
@@ -172,7 +172,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'incline_bench_press_smith',
     name: 'Supino inclinado no smith',
-    gif: require('./exercises/incline_bench_press_smith.gif'),
+    gif: require('./exercises/incline_bench_press_smith.mp4'),
     primaryMuscle: 'Peito',
     equipment: 'Smith',
     aliases: ['smith incline press', 'supino inclinado smith'],
@@ -188,7 +188,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'decline_bench_press_barbell',
     name: 'Supino declinado',
-    gif: require('./exercises/decline_bench_press_barbell.gif'),
+    gif: require('./exercises/decline_bench_press_barbell.mp4'),
     primaryMuscle: 'Peito',
     equipment: 'Barra',
     aliases: ['decline bench press', 'supino declinado barra'],
@@ -203,7 +203,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'decline_bench_press_dumbbell',
     name: 'Supino declinado com halteres',
-    gif: require('./exercises/decline_bench_press_dumbbell.gif'),
+    gif: require('./exercises/decline_bench_press_dumbbell.mp4'),
     primaryMuscle: 'Peito',
     equipment: 'Halter',
     aliases: ['decline dumbbell press', 'supino declinado halteres'],
@@ -220,7 +220,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'chest_press_machine',
     name: 'Chest press (máquina)',
-    gif: require('./exercises/chest_press_machine.gif'),
+    gif: require('./exercises/chest_press_machine.mp4'),
     primaryMuscle: 'Peito',
     equipment: 'Máquina',
     aliases: ['machine chest press', 'supino máquina'],
@@ -234,7 +234,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'hammer_strength_chest_press',
     name: 'Chest press (Hammer Strength)',
-    gif: require('./exercises/hammer_strength_chest_press.gif'),
+    gif: require('./exercises/hammer_strength_chest_press.mp4'),
     primaryMuscle: 'Peito',
     equipment: 'Máquina',
     aliases: ['hammer chest press', 'hs chest press'],
@@ -248,7 +248,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'machine_incline_press',
     name: 'Supino inclinado na máquina',
-    gif: require('./exercises/machine_incline_press.gif'),
+    gif: require('./exercises/machine_incline_press.mp4'),
     primaryMuscle: 'Peito',
     equipment: 'Máquina',
     aliases: ['incline machine press', 'supino inclinado máquina'],
@@ -262,7 +262,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'machine_decline_press',
     name: 'Supino declinado na máquina',
-    gif: require('./exercises/machine_decline_press.gif'),
+    gif: require('./exercises/machine_decline_press.mp4'),
     primaryMuscle: 'Peito',
     equipment: 'Máquina',
     aliases: ['decline machine press', 'supino declinado máquina'],
@@ -277,7 +277,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'push_up',
     name: 'Flexão de braço',
-    gif: require('./exercises/push_up.gif'),
+    gif: require('./exercises/push_up.mp4'),
     primaryMuscle: 'Peito',
     equipment: 'Peso corporal',
     aliases: ['push up', 'flexão'],
@@ -293,7 +293,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'push_up_wide',
     name: 'Flexão aberta',
-    gif: require('./exercises/push_up_wide.gif'),
+    gif: require('./exercises/push_up_wide.mp4'),
     primaryMuscle: 'Peito',
     equipment: 'Peso corporal',
     aliases: ['wide push up', 'flexão aberta'],
@@ -308,7 +308,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'push_up_close',
     name: 'Flexão fechada',
-    gif: require('./exercises/push_up_close.gif'),
+    gif: require('./exercises/push_up_close.mp4'),
     primaryMuscle: 'Peito',
     equipment: 'Peso corporal',
     aliases: ['close push up', 'diamond push up', 'flexão diamante'],
@@ -323,7 +323,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'push_up_decline',
     name: 'Flexão declinada',
-    gif: require('./exercises/push_up_decline.gif'),
+    gif: require('./exercises/push_up_decline.mp4'),
     primaryMuscle: 'Peito',
     equipment: 'Peso corporal',
     aliases: ['decline push up', 'flexão com pés elevados'],
@@ -338,7 +338,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'push_up_incline',
     name: 'Flexão inclinada',
-    gif: require('./exercises/push_up_incline.gif'),
+    gif: require('./exercises/push_up_incline.mp4'),
     primaryMuscle: 'Peito',
     equipment: 'Peso corporal',
     aliases: ['incline push up', 'flexão apoiada'],
@@ -354,7 +354,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'dips_chest',
     name: 'Paralelas (ênfase peito)',
-    gif: require('./exercises/dips_chest.gif'),
+    gif: require('./exercises/dips_chest.mp4'),
     primaryMuscle: 'Peito',
     equipment: 'Peso corporal',
     aliases: ['chest dips', 'paralelas peito'],
@@ -370,7 +370,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'pec_deck_machine',
     name: 'Crucifixo máquina (Peck Deck)',
-    gif: require('./exercises/pec_deck_machine.gif'),
+    gif: require('./exercises/pec_deck_machine.mp4'),
     primaryMuscle: 'Peito',
     equipment: 'Máquina',
     aliases: ['pec deck', 'fly machine', 'crucifixo máquina'],
@@ -383,7 +383,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'dumbbell_fly_flat',
     name: 'Crucifixo reto com halteres',
-    gif: require('./exercises/dumbbell_fly_flat.gif'),
+    gif: require('./exercises/dumbbell_fly_flat.mp4'),
     primaryMuscle: 'Peito',
     equipment: 'Halter',
     aliases: ['dumbbell fly', 'crucifixo halteres'],
@@ -397,7 +397,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'dumbbell_fly_incline',
     name: 'Crucifixo inclinado com halteres',
-    gif: require('./exercises/dumbbell_fly_incline.gif'),
+    gif: require('./exercises/dumbbell_fly_incline.mp4'),
     primaryMuscle: 'Peito',
     equipment: 'Halter',
     aliases: ['incline fly', 'crucifixo inclinado'],
@@ -425,7 +425,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'cable_fly_low_to_high',
     name: 'Crossover baixo para cima',
-    gif: require('./exercises/cable_fly_low_to_high.gif'),
+    gif: require('./exercises/cable_fly_low_to_high.mp4'),
     primaryMuscle: 'Peito',
     equipment: 'Cabo',
     aliases: ['low to high cable fly', 'crossover baixo'],
@@ -438,7 +438,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'cable_fly_mid',
     name: 'Crossover (linha média)',
-    gif: require('./exercises/cable_fly_mid.gif'),
+    gif: require('./exercises/cable_fly_mid.mp4'),
     primaryMuscle: 'Peito',
     equipment: 'Cabo',
     aliases: ['cable crossover', 'crossover'],
@@ -451,7 +451,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'single_arm_cable_fly',
     name: 'Crossover unilateral',
-    gif: require('./exercises/single_arm_cable_fly.gif'),
+    gif: require('./exercises/single_arm_cable_fly.mp4'),
     primaryMuscle: 'Peito',
     equipment: 'Cabo',
     aliases: ['single arm cable fly', 'crossover unilateral'],
@@ -481,7 +481,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'single_arm_cable_press',
     name: 'Press unilateral no cabo',
-    gif: require('./exercises/single_arm_cable_press.gif'),
+    gif: require('./exercises/single_arm_cable_press.mp4'),
     primaryMuscle: 'Peito',
     equipment: 'Cabo',
     aliases: ['single arm cable press'],
@@ -498,7 +498,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'paused_bench_press',
     name: 'Supino com pausa',
-    gif: require('./exercises/paused_bench_press.gif'),
+    gif: require('./exercises/paused_bench_press.mp4'),
     primaryMuscle: 'Peito',
     equipment: 'Barra',
     aliases: ['paused bench press', 'supino pausado'],
@@ -512,7 +512,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'spoto_press',
     name: 'Spoto press',
-    gif: require('./exercises/spoto_press.gif'),
+    gif: require('./exercises/spoto_press.mp4'),
     primaryMuscle: 'Peito',
     equipment: 'Barra',
     aliases: ['spoto press'],
@@ -526,7 +526,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'floor_press_barbell',
     name: 'Floor press (barra)',
-    gif: require('./exercises/floor_press_barbell.gif'),
+    gif: require('./exercises/floor_press_barbell.mp4'),
     primaryMuscle: 'Peito',
     equipment: 'Barra',
     aliases: ['barbell floor press', 'supino no chão'],
@@ -540,7 +540,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'floor_press_dumbbell',
     name: 'Floor press (halteres)',
-    gif: require('./exercises/floor_press_dumbbell.gif'),
+    gif: require('./exercises/floor_press_dumbbell.mp4'),
     primaryMuscle: 'Peito',
     equipment: 'Halter',
     aliases: ['dumbbell floor press'],
@@ -556,7 +556,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'squeeze_press_dumbbell',
     name: 'Squeeze press (halteres)',
-    gif: require('./exercises/squeeze_press_dumbbell.gif'),
+    gif: require('./exercises/squeeze_press_dumbbell.mp4'),
     primaryMuscle: 'Peito',
     equipment: 'Halter',
     aliases: ['squeeze press', 'crush press'],
@@ -570,7 +570,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'guillotine_press',
     name: 'Supino guilhotina',
-    gif: require('./exercises/guillotine_press.gif'),
+    gif: require('./exercises/guillotine_press.mp4'),
     primaryMuscle: 'Peito',
     equipment: 'Barra',
     aliases: ['guillotine press'],
@@ -600,7 +600,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'ring_push_up',
     name: 'Flexão nas argolas',
-    gif: require('./exercises/ring_push_up.gif'),
+    gif: require('./exercises/ring_push_up.mp4'),
     primaryMuscle: 'Peito',
     equipment: 'Outro',
     aliases: ['ring push up', 'flexão argolas'],
@@ -621,7 +621,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'pull_up',
     name: 'Barra fixa',
-    gif: require('./exercises/pull_up.gif'),
+    gif: require('./exercises/pull_up.mp4'),
     primaryMuscle: 'Costas',
     equipment: 'Peso corporal',
     aliases: ['pull up', 'barra fixa'],
@@ -637,7 +637,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'chin_up',
     name: 'Barra fixa supinada (chin up)',
-    gif: require('./exercises/chin_up.gif'),
+    gif: require('./exercises/chin_up.mp4'),
     primaryMuscle: 'Costas',
     equipment: 'Peso corporal',
     aliases: ['chin up', 'barra supinada'],
@@ -653,7 +653,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'neutral_grip_pull_up',
     name: 'Barra fixa pegada neutra',
-    gif: require('./exercises/neutral_grip_pull_up.gif'),
+    gif: require('./exercises/neutral_grip_pull_up.mp4'),
     primaryMuscle: 'Costas',
     equipment: 'Peso corporal',
     aliases: ['neutral grip pull up', 'barra neutra'],
@@ -669,7 +669,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'assisted_pull_up_machine',
     name: 'Barra fixa assistida (máquina)',
-    gif: require('./exercises/assisted_pull_up_machine.gif'),
+    gif: require('./exercises/assisted_pull_up_machine.mp4'),
     primaryMuscle: 'Costas',
     equipment: 'Máquina',
     aliases: ['assisted pull up', 'barra assistida'],
@@ -683,7 +683,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'pull_up_weighted',
     name: 'Barra fixa com peso',
-    gif: require('./exercises/pull_up_weighted.gif'),
+    gif: require('./exercises/pull_up_weighted.mp4'),
     primaryMuscle: 'Costas',
     equipment: 'Outro',
     aliases: ['weighted pull up'],
@@ -699,7 +699,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'lat_pulldown_wide',
     name: 'Puxada na frente (aberta)',
-    gif: require('./exercises/lat_pulldown_wide.gif'),
+    gif: require('./exercises/lat_pulldown_wide.mp4'),
     primaryMuscle: 'Costas',
     equipment: 'Cabo',
     aliases: ['lat pulldown', 'pulldown wide'],
@@ -715,7 +715,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'lat_pulldown_close',
     name: 'Puxada na frente (fechada)',
-    gif: require('./exercises/lat_pulldown_close.gif'),
+    gif: require('./exercises/lat_pulldown_close.mp4'),
     primaryMuscle: 'Costas',
     equipment: 'Cabo',
     aliases: ['close grip pulldown', 'puxada fechada'],
@@ -730,7 +730,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'lat_pulldown_reverse',
     name: 'Puxada supinada',
-    gif: require('./exercises/lat_pulldown_reverse.webp'),
+    gif: require('./exercises/lat_pulldown_reverse.jpg'),
     primaryMuscle: 'Costas',
     equipment: 'Cabo',
     aliases: ['reverse grip pulldown', 'pulldown supinado'],
@@ -745,7 +745,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'lat_pulldown_neutral',
     name: 'Puxada neutra',
-    gif: require('./exercises/lat_pulldown_neutral.gif'),
+    gif: require('./exercises/lat_pulldown_neutral.mp4'),
     primaryMuscle: 'Costas',
     equipment: 'Cabo',
     aliases: ['neutral grip pulldown'],
@@ -760,7 +760,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'lat_pulldown_single_arm',
     name: 'Puxada unilateral',
-    gif: require('./exercises/lat_pulldown_single_arm.gif'),
+    gif: require('./exercises/lat_pulldown_single_arm.mp4'),
     primaryMuscle: 'Costas',
     equipment: 'Cabo',
     aliases: ['single arm lat pulldown', 'puxada unilateral'],
@@ -775,7 +775,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'straight_arm_pulldown',
     name: 'Pulldown braço estendido',
-    gif: require('./exercises/straight_arm_pulldown.gif'),
+    gif: require('./exercises/straight_arm_pulldown.mp4'),
     primaryMuscle: 'Costas',
     equipment: 'Cabo',
     aliases: ['straight arm pulldown', 'pulldown braços retos'],
@@ -789,7 +789,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'kneeling_lat_pulldown',
     name: 'Puxada ajoelhado no cabo',
-    gif: require('./exercises/kneeling_lat_pulldown.gif'),
+    gif: require('./exercises/kneeling_lat_pulldown.mp4'),
     primaryMuscle: 'Costas',
     equipment: 'Cabo',
     aliases: ['kneeling pulldown'],
@@ -804,7 +804,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'seated_cable_row',
     name: 'Remada baixa no cabo',
-    gif: require('./exercises/seated_cable_row.gif'),
+    gif: require('./exercises/seated_cable_row.mp4'),
     primaryMuscle: 'Costas',
     equipment: 'Cabo',
     aliases: ['seated cable row', 'remada baixa cabo'],
@@ -820,7 +820,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'wide_cable_row',
     name: 'Remada baixa aberta no cabo',
-    gif: require('./exercises/wide_cable_row.gif'),
+    gif: require('./exercises/wide_cable_row.mp4'),
     primaryMuscle: 'Costas',
     equipment: 'Cabo',
     aliases: ['wide cable row', 'remada aberta cabo'],
@@ -835,7 +835,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'single_arm_cable_row',
     name: 'Remada unilateral no cabo',
-    gif: require('./exercises/single_arm_cable_row.gif'),
+    gif: require('./exercises/single_arm_cable_row.mp4'),
     primaryMuscle: 'Costas',
     equipment: 'Cabo',
     aliases: ['single arm cable row', 'remada unilateral cabo'],
@@ -850,7 +850,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'cable_row_v_handle',
     name: 'Remada no cabo (triângulo)',
-    gif: require('./exercises/cable_row_v_handle.gif'),
+    gif: require('./exercises/cable_row_v_handle.mp4'),
     primaryMuscle: 'Costas',
     equipment: 'Cabo',
     aliases: ['v handle row', 'remada triangulo'],
@@ -880,7 +880,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'barbell_row',
     name: 'Remada curvada (barra)',
-    gif: require('./exercises/barbell_row.gif'),
+    gif: require('./exercises/barbell_row.mp4'),
     primaryMuscle: 'Costas',
     equipment: 'Barra',
     aliases: ['barbell row', 'bent over row', 'remada curvada'],
@@ -896,7 +896,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'pendlay_row',
     name: 'Remada Pendlay',
-    gif: require('./exercises/pendlay_row.gif'),
+    gif: require('./exercises/pendlay_row.mp4'),
     primaryMuscle: 'Costas',
     equipment: 'Barra',
     aliases: ['pendlay row'],
@@ -912,7 +912,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'yates_row',
     name: 'Remada Yates',
-    gif: require('./exercises/yates_row.gif'),
+    gif: require('./exercises/yates_row.mp4'),
     primaryMuscle: 'Costas',
     equipment: 'Barra',
     aliases: ['yates row'],
@@ -927,7 +927,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'smith_row',
     name: 'Remada no smith',
-    gif: require('./exercises/smith_row.gif'),
+    gif: require('./exercises/smith_row.mp4'),
     primaryMuscle: 'Costas',
     equipment: 'Smith',
     aliases: ['smith row'],
@@ -942,7 +942,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'dumbbell_row',
     name: 'Remada unilateral com halter',
-    gif: require('./exercises/dumbbell_row.gif'),
+    gif: require('./exercises/dumbbell_row.mp4'),
     primaryMuscle: 'Costas',
     equipment: 'Halter',
     aliases: ['one arm row', 'dumbbell row'],
@@ -957,7 +957,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'kroc_row',
     name: 'Kroc row',
-    gif: require('./exercises/kroc_row.gif'),
+    gif: require('./exercises/kroc_row.mp4'),
     primaryMuscle: 'Costas',
     equipment: 'Halter',
     aliases: ['kroc row'],
@@ -973,7 +973,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'chest_supported_dumbbell_row',
     name: 'Remada apoiada no banco (halteres)',
-    gif: require('./exercises/chest_supported_dumbbell_row.gif'),
+    gif: require('./exercises/chest_supported_dumbbell_row.mp4'),
     primaryMuscle: 'Costas',
     equipment: 'Halter',
     aliases: ['chest supported db row'],
@@ -988,7 +988,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'chest_supported_row_machine',
     name: 'Remada máquina com apoio no peito',
-    gif: require('./exercises/chest_supported_row_machine.gif'),
+    gif: require('./exercises/chest_supported_row_machine.mp4'),
     primaryMuscle: 'Costas',
     equipment: 'Máquina',
     aliases: ['chest supported row', 'remada com apoio'],
@@ -1031,7 +1031,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 't_bar_row',
     name: 'Remada T-bar',
-    gif: require('./exercises/t_bar_row.gif'),
+    gif: require('./exercises/t_bar_row.mp4'),
     primaryMuscle: 'Costas',
     equipment: 'Outro',
     aliases: ['t bar row', 'remada t-bar'],
@@ -1047,7 +1047,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'meadows_row',
     name: 'Meadows row',
-    gif: require('./exercises/meadows_row.gif'),
+    gif: require('./exercises/meadows_row.mp4'),
     primaryMuscle: 'Costas',
     equipment: 'Outro',
     aliases: ['meadows row'],
@@ -1062,7 +1062,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'landmine_row',
     name: 'Remada landmine',
-    gif: require('./exercises/landmine_row.gif'),
+    gif: require('./exercises/landmine_row.mp4'),
     primaryMuscle: 'Costas',
     equipment: 'Outro',
     aliases: ['landmine row'],
@@ -1078,7 +1078,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'inverted_row',
     name: 'Remada invertida',
-    gif: require('./exercises/inverted_row.gif'),
+    gif: require('./exercises/inverted_row.mp4'),
     primaryMuscle: 'Costas',
     equipment: 'Peso corporal',
     aliases: ['inverted row', 'australian pull up'],
@@ -1094,7 +1094,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'inverted_row_feet_elevated',
     name: 'Remada invertida com pés elevados',
-    gif: require('./exercises/inverted_row_feet_elevated.gif'),
+    gif: require('./exercises/inverted_row_feet_elevated.mp4'),
     primaryMuscle: 'Costas',
     equipment: 'Peso corporal',
     aliases: ['feet elevated inverted row'],
@@ -1111,7 +1111,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'dumbbell_pullover',
     name: 'Pullover com halter',
-    gif: require('./exercises/dumbbell_pullover.gif'),
+    gif: require('./exercises/dumbbell_pullover.mp4'),
     primaryMuscle: 'Costas',
     equipment: 'Halter',
     aliases: ['dumbbell pullover', 'pullover'],
@@ -1126,7 +1126,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'machine_pullover',
     name: 'Pullover na máquina',
-    gif: require('./exercises/machine_pullover.gif'),
+    gif: require('./exercises/machine_pullover.mp4'),
     primaryMuscle: 'Costas',
     equipment: 'Máquina',
     aliases: ['machine pullover'],
@@ -1139,7 +1139,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'cable_pullover',
     name: 'Pullover no cabo',
-    gif: require('./exercises/cable_pullover.gif'),
+    gif: require('./exercises/cable_pullover.mp4'),
     primaryMuscle: 'Costas',
     equipment: 'Cabo',
     aliases: ['cable pullover'],
@@ -1154,7 +1154,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'deadlift_conventional',
     name: 'Levantamento terra (convencional)',
-    gif: require('./exercises/deadlift_conventional.gif'),
+    gif: require('./exercises/deadlift_conventional.mp4'),
     primaryMuscle: 'Costas',
     equipment: 'Barra',
     aliases: ['deadlift', 'terra'],
@@ -1171,7 +1171,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'rack_pull',
     name: 'Rack pull',
-    gif: require('./exercises/rack_pull.gif'),
+    gif: require('./exercises/rack_pull.mp4'),
     primaryMuscle: 'Costas',
     equipment: 'Barra',
     aliases: ['rack pull', 'terra parcial'],
@@ -1186,7 +1186,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'deadlift_deficit',
     name: 'Terra deficit',
-    gif: require('./exercises/deadlift_deficit.gif'),
+    gif: require('./exercises/deadlift_deficit.mp4'),
     primaryMuscle: 'Costas',
     equipment: 'Barra',
     aliases: ['deficit deadlift'],
@@ -1202,7 +1202,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'deadlift_pause',
     name: 'Terra com pausa',
-    gif: require('./exercises/deadlift_pause.gif'),
+    gif: require('./exercises/deadlift_pause.mp4'),
     primaryMuscle: 'Costas',
     equipment: 'Barra',
     aliases: ['paused deadlift'],
@@ -1222,7 +1222,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'barbell_curl',
     name: 'Rosca direta (barra)',
-    gif: require('./exercises/barbell_curl.gif'),
+    gif: require('./exercises/barbell_curl.mp4'),
     primaryMuscle: 'Bíceps',
     equipment: 'Barra',
     aliases: ['barbell curl', 'rosca direta'],
@@ -1236,7 +1236,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'ez_bar_curl',
     name: 'Rosca direta (barra EZ)',
-    gif: require('./exercises/ez_bar_curl.gif'),
+    gif: require('./exercises/ez_bar_curl.mp4'),
     primaryMuscle: 'Bíceps',
     equipment: 'Barra',
     aliases: ['ez bar curl', 'rosca ez'],
@@ -1250,7 +1250,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'ez_bar_curl_wide',
     name: 'Rosca EZ pegada aberta',
-    gif: require('./exercises/ez_bar_curl_wide.gif'),
+    gif: require('./exercises/ez_bar_curl_wide.mp4'),
     primaryMuscle: 'Bíceps',
     equipment: 'Barra',
     aliases: ['wide grip ez curl'],
@@ -1264,7 +1264,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'ez_bar_curl_close',
     name: 'Rosca EZ pegada fechada',
-    gif: require('./exercises/ez_bar_curl_close.gif'),
+    gif: require('./exercises/ez_bar_curl_close.mp4'),
     primaryMuscle: 'Bíceps',
     equipment: 'Barra',
     aliases: ['close grip ez curl'],
@@ -1279,7 +1279,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'dumbbell_curl',
     name: 'Rosca alternada',
-    gif: require('./exercises/dumbbell_curl.gif'),
+    gif: require('./exercises/dumbbell_curl.mp4'),
     primaryMuscle: 'Bíceps',
     equipment: 'Halter',
     aliases: ['dumbbell curl', 'rosca alternada'],
@@ -1293,7 +1293,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'hammer_curl',
     name: 'Rosca martelo',
-    gif: require('./exercises/hammer_curl.gif'),
+    gif: require('./exercises/hammer_curl.mp4'),
     primaryMuscle: 'Bíceps',
     equipment: 'Halter',
     aliases: ['hammer curl'],
@@ -1307,7 +1307,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'cross_body_hammer_curl',
     name: 'Rosca martelo cruzada',
-    gif: require('./exercises/cross_body_hammer_curl.gif'),
+    gif: require('./exercises/cross_body_hammer_curl.mp4'),
     primaryMuscle: 'Bíceps',
     equipment: 'Halter',
     aliases: ['cross body hammer curl'],
@@ -1321,7 +1321,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'incline_dumbbell_curl',
     name: 'Rosca inclinada',
-    gif: require('./exercises/incline_dumbbell_curl.gif'),
+    gif: require('./exercises/incline_dumbbell_curl.mp4'),
     primaryMuscle: 'Bíceps',
     equipment: 'Halter',
     aliases: ['incline curl'],
@@ -1335,7 +1335,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'concentration_curl',
     name: 'Rosca concentração',
-    gif: require('./exercises/concentration_curl.gif'),
+    gif: require('./exercises/concentration_curl.mp4'),
     primaryMuscle: 'Bíceps',
     equipment: 'Halter',
     aliases: ['concentration curl'],
@@ -1348,7 +1348,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'zottman_curl',
     name: 'Rosca Zottman',
-    gif: require('./exercises/zottman_curl.gif'),
+    gif: require('./exercises/zottman_curl.mp4'),
     primaryMuscle: 'Bíceps',
     equipment: 'Halter',
     aliases: ['zottman curl'],
@@ -1363,7 +1363,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'preacher_curl_ez',
     name: 'Rosca Scott (barra EZ)',
-    gif: require('./exercises/preacher_curl_ez.gif'),
+    gif: require('./exercises/preacher_curl_ez.mp4'),
     primaryMuscle: 'Bíceps',
     equipment: 'Barra',
     aliases: ['preacher curl', 'rosca scott'],
@@ -1377,7 +1377,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'preacher_curl_machine',
     name: 'Rosca Scott (máquina)',
-    gif: require('./exercises/preacher_curl_machine.webp'),
+    gif: require('./exercises/preacher_curl_machine.jpg'),
     primaryMuscle: 'Bíceps',
     equipment: 'Máquina',
     aliases: ['machine preacher curl'],
@@ -1406,7 +1406,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'cable_preacher_curl',
     name: 'Rosca Scott no cabo',
-    gif: require('./exercises/cable_preacher_curl.gif'),
+    gif: require('./exercises/cable_preacher_curl.mp4'),
     primaryMuscle: 'Bíceps',
     equipment: 'Cabo',
     aliases: ['cable preacher curl'],
@@ -1420,7 +1420,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'high_cable_curl',
     name: 'Rosca no cabo alto (duplo)',
-    gif: require('./exercises/high_cable_curl.gif'),
+    gif: require('./exercises/high_cable_curl.mp4'),
     primaryMuscle: 'Bíceps',
     equipment: 'Cabo',
     aliases: ['high cable curl', 'double biceps cable'],
@@ -1434,7 +1434,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'bayesian_curl',
     name: 'Rosca bayesian (cabo atrás)',
-    gif: require('./exercises/bayesian_curl.png'),
+    gif: require('./exercises/bayesian_curl.webp'),
     primaryMuscle: 'Bíceps',
     equipment: 'Cabo',
     aliases: ['bayesian curl'],
@@ -1449,7 +1449,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'rope_hammer_curl_cable',
     name: 'Rosca martelo no cabo (corda)',
-    gif: require('./exercises/rope_hammer_curl_cable.gif'),
+    gif: require('./exercises/rope_hammer_curl_cable.mp4'),
     primaryMuscle: 'Bíceps',
     equipment: 'Cabo',
     aliases: ['rope hammer curl'],
@@ -1464,7 +1464,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'reverse_curl_barbell',
     name: 'Rosca inversa (barra)',
-    gif: require('./exercises/reverse_curl_barbell.gif'),
+    gif: require('./exercises/reverse_curl_barbell.mp4'),
     primaryMuscle: 'Bíceps',
     equipment: 'Barra',
     aliases: ['reverse curl'],
@@ -1479,7 +1479,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'machine_biceps_curl',
     name: 'Rosca na máquina',
-    gif: require('./exercises/machine_biceps_curl.gif'),
+    gif: require('./exercises/machine_biceps_curl.mp4'),
     primaryMuscle: 'Bíceps',
     equipment: 'Máquina',
     aliases: ['biceps curl machine'],
@@ -1497,7 +1497,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'standing_calf_raise',
     name: 'Panturrilha em pé',
-    gif: require('./exercises/standing_calf_raise.gif'),
+    gif: require('./exercises/standing_calf_raise.mp4'),
     primaryMuscle: 'Panturrilha',
     equipment: 'Máquina',
     aliases: ['standing calf raise'],
@@ -1510,7 +1510,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'seated_calf_raise',
     name: 'Panturrilha sentado',
-    gif: require('./exercises/seated_calf_raise.gif'),
+    gif: require('./exercises/seated_calf_raise.mp4'),
     primaryMuscle: 'Panturrilha',
     equipment: 'Máquina',
     aliases: ['seated calf raise'],
@@ -1523,7 +1523,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'calf_raise_leg_press',
     name: 'Panturrilha no leg press',
-    gif: require('./exercises/calf_raise_leg_press.gif'),
+    gif: require('./exercises/calf_raise_leg_press.mp4'),
     primaryMuscle: 'Panturrilha',
     equipment: 'Máquina',
     aliases: ['leg press calf raise', 'calf press'],
@@ -1536,7 +1536,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'smith_calf_raise',
     name: 'Panturrilha no smith',
-    gif: require('./exercises/smith_calf_raise.gif'),
+    gif: require('./exercises/smith_calf_raise.mp4'),
     primaryMuscle: 'Panturrilha',
     equipment: 'Smith',
     aliases: ['smith calf raise'],
@@ -1549,7 +1549,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'single_leg_calf_raise',
     name: 'Panturrilha unilateral',
-    gif: require('./exercises/single_leg_calf_raise.gif'),
+    gif: require('./exercises/single_leg_calf_raise.mp4'),
     primaryMuscle: 'Panturrilha',
     equipment: 'Peso corporal',
     aliases: ['single leg calf raise'],
@@ -1563,7 +1563,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'tibialis_raise',
     name: 'Tibialis raise',
-    gif: require('./exercises/tibialis_raise.gif'),
+    gif: require('./exercises/tibialis_raise.mp4'),
     primaryMuscle: 'Panturrilha',
     equipment: 'Outro',
     aliases: ['tibialis raise', 'anterior da perna'],
@@ -1580,7 +1580,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'plank',
     name: 'Prancha',
-    gif: require('./exercises/plank.gif'),
+    gif: require('./exercises/plank.mp4'),
     primaryMuscle: 'Core',
     equipment: 'Peso corporal',
     aliases: ['plank', 'prancha'],
@@ -1594,7 +1594,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'side_plank',
     name: 'Prancha lateral',
-    gif: require('./exercises/side_plank.gif'),
+    gif: require('./exercises/side_plank.mp4'),
     primaryMuscle: 'Core',
     equipment: 'Peso corporal',
     aliases: ['side plank', 'prancha lateral'],
@@ -1618,7 +1618,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'bird_dog',
     name: 'Bird dog',
-    gif: require('./exercises/bird_dog.gif'),
+    gif: require('./exercises/bird_dog.mp4'),
     primaryMuscle: 'Core',
     equipment: 'Peso corporal',
     aliases: ['bird dog'],
@@ -1628,7 +1628,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'hollow_hold',
     name: 'Hollow hold',
-    gif: require('./exercises/hollow_hold.gif'),
+    gif: require('./exercises/hollow_hold.mp4'),
     primaryMuscle: 'Core',
     equipment: 'Peso corporal',
     aliases: ['hollow hold'],
@@ -1639,7 +1639,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'crunch',
     name: 'Crunch',
-    gif: require('./exercises/crunch.gif'),
+    gif: require('./exercises/crunch.mp4'),
     primaryMuscle: 'Core',
     equipment: 'Peso corporal',
     aliases: ['crunch'],
@@ -1649,7 +1649,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'sit_up',
     name: 'Abdominal tradicional (sit-up)',
-    gif: require('./exercises/sit_up.gif'),
+    gif: require('./exercises/sit_up.mp4'),
     primaryMuscle: 'Core',
     equipment: 'Peso corporal',
     aliases: ['sit up'],
@@ -1659,7 +1659,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'cable_crunch',
     name: 'Crunch no cabo',
-    gif: require('./exercises/cable_crunch.gif'),
+    gif: require('./exercises/cable_crunch.mp4'),
     primaryMuscle: 'Core',
     equipment: 'Cabo',
     aliases: ['cable crunch'],
@@ -1669,7 +1669,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'machine_crunch',
     name: 'Crunch na máquina',
-    gif: require('./exercises/machine_crunch.gif'),
+    gif: require('./exercises/machine_crunch.mp4'),
     primaryMuscle: 'Core',
     equipment: 'Máquina',
     aliases: ['machine crunch'],
@@ -1680,7 +1680,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'hanging_leg_raise',
     name: 'Elevação de pernas na barra',
-    gif: require('./exercises/hanging_leg_raise.gif'),
+    gif: require('./exercises/hanging_leg_raise.mp4'),
     primaryMuscle: 'Core',
     equipment: 'Peso corporal',
     aliases: ['hanging leg raise'],
@@ -1694,7 +1694,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'hanging_knee_raise',
     name: 'Elevação de joelhos na barra',
-    gif: require('./exercises/hanging_knee_raise.gif'),
+    gif: require('./exercises/hanging_knee_raise.mp4'),
     primaryMuscle: 'Core',
     equipment: 'Peso corporal',
     aliases: ['hanging knee raise'],
@@ -1708,7 +1708,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'lying_leg_raise',
     name: 'Elevação de pernas deitado',
-    gif: require('./exercises/lying_leg_raise.gif'),
+    gif: require('./exercises/lying_leg_raise.mp4'),
     primaryMuscle: 'Core',
     equipment: 'Peso corporal',
     aliases: ['lying leg raise'],
@@ -1721,7 +1721,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'reverse_crunch',
     name: 'Reverse crunch',
-    gif: require('./exercises/reverse_crunch.gif'),
+    gif: require('./exercises/reverse_crunch.mp4'),
     primaryMuscle: 'Core',
     equipment: 'Peso corporal',
     aliases: ['reverse crunch'],
@@ -1735,7 +1735,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'ab_wheel',
     name: 'Ab wheel',
-    gif: require('./exercises/ab_wheel.gif'),
+    gif: require('./exercises/ab_wheel.mp4'),
     primaryMuscle: 'Core',
     equipment: 'Outro',
     aliases: ['ab wheel rollout'],
@@ -1749,7 +1749,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'rollout_barbell',
     name: 'Rollout com barra',
-    gif: require('./exercises/rollout_barbell.gif'),
+    gif: require('./exercises/rollout_barbell.mp4'),
     primaryMuscle: 'Core',
     equipment: 'Barra',
     aliases: ['barbell rollout'],
@@ -1764,7 +1764,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'pallof_press',
     name: 'Pallof press',
-    gif: require('./exercises/pallof_press.gif'),
+    gif: require('./exercises/pallof_press.mp4'),
     primaryMuscle: 'Core',
     equipment: 'Cabo',
     aliases: ['pallof press', 'anti rotação'],
@@ -1777,7 +1777,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'woodchopper_cable',
     name: 'Woodchopper no cabo',
-    gif: require('./exercises/woodchopper_cable.webp'),
+    gif: require('./exercises/woodchopper_cable.jpg'),
     primaryMuscle: 'Core',
     equipment: 'Cabo',
     aliases: ['cable woodchopper'],
@@ -1795,7 +1795,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'burpee',
     name: 'Burpee',
-    gif: require('./exercises/burpee.gif'),
+    gif: require('./exercises/burpee.mp4'),
     primaryMuscle: 'Full body',
     equipment: 'Peso corporal',
     aliases: ['burpee'],
@@ -1811,7 +1811,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'thruster',
     name: 'Thruster',
-    gif: require('./exercises/thruster.gif'),
+    gif: require('./exercises/thruster.mp4'),
     primaryMuscle: 'Full body',
     equipment: 'Barra',
     aliases: ['thruster'],
@@ -1827,7 +1827,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'dumbbell_thruster',
     name: 'Thruster com halteres',
-    gif: require('./exercises/dumbbell_thruster.gif'),
+    gif: require('./exercises/dumbbell_thruster.mp4'),
     primaryMuscle: 'Full body',
     equipment: 'Halter',
     aliases: ['dumbbell thruster'],
@@ -1843,7 +1843,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'clean_and_press',
     name: 'Clean & press',
-    gif: require('./exercises/clean_and_press.gif'),
+    gif: require('./exercises/clean_and_press.mp4'),
     primaryMuscle: 'Full body',
     equipment: 'Barra',
     aliases: ['clean and press'],
@@ -1860,7 +1860,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'farmers_walk',
     name: "Farmer’s walk",
-    gif: require('./exercises/farmers_walk.gif'),
+    gif: require('./exercises/farmers_walk.mp4'),
     primaryMuscle: 'Full body',
     equipment: 'Halter',
     aliases: ['farmers walk', 'caminhada do fazendeiro'],
@@ -1879,7 +1879,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'hip_thrust_barbell',
     name: 'Hip thrust (barra)',
-    gif: require('./exercises/hip_thrust_barbell.gif'),
+    gif: require('./exercises/hip_thrust_barbell.mp4'),
     primaryMuscle: 'Glúteos',
     equipment: 'Barra',
     aliases: ['hip thrust', 'elevação pélvica'],
@@ -1894,7 +1894,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'smith_hip_thrust',
     name: 'Hip thrust no smith',
-    gif: require('./exercises/smith_hip_thrust.webp'),
+    gif: require('./exercises/smith_hip_thrust.jpg'),
     primaryMuscle: 'Glúteos',
     equipment: 'Smith',
     aliases: ['smith hip thrust'],
@@ -1908,7 +1908,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'hip_thrust_machine',
     name: 'Hip thrust (máquina)',
-    gif: require('./exercises/hip_thrust_machine.gif'),
+    gif: require('./exercises/hip_thrust_machine.mp4'),
     primaryMuscle: 'Glúteos',
     equipment: 'Máquina',
     aliases: ['machine hip thrust'],
@@ -1921,7 +1921,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'hip_thrust_pause',
     name: 'Hip thrust com pausa',
-    gif: require('./exercises/hip_thrust_pause.gif'),
+    gif: require('./exercises/hip_thrust_pause.mp4'),
     primaryMuscle: 'Glúteos',
     equipment: 'Barra',
     aliases: ['paused hip thrust'],
@@ -1936,7 +1936,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'glute_bridge',
     name: 'Ponte de glúteo',
-    gif: require('./exercises/glute_bridge.gif'),
+    gif: require('./exercises/glute_bridge.mp4'),
     primaryMuscle: 'Glúteos',
     equipment: 'Peso corporal',
     aliases: ['glute bridge'],
@@ -1964,7 +1964,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'single_leg_glute_bridge',
     name: 'Ponte unilateral',
-    gif: require('./exercises/single_leg_glute_bridge.gif'),
+    gif: require('./exercises/single_leg_glute_bridge.mp4'),
     primaryMuscle: 'Glúteos',
     equipment: 'Peso corporal',
     aliases: ['single leg glute bridge'],
@@ -1979,7 +1979,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'kickback_cable',
     name: 'Coice de glúteo no cabo',
-    gif: require('./exercises/kickback_cable.gif'),
+    gif: require('./exercises/kickback_cable.mp4'),
     primaryMuscle: 'Glúteos',
     equipment: 'Cabo',
     aliases: ['cable kickback', 'glute kickback'],
@@ -1993,7 +1993,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'kickback_machine',
     name: 'Coice de glúteo na máquina',
-    gif: require('./exercises/kickback_machine.gif'),
+    gif: require('./exercises/kickback_machine.mp4'),
     primaryMuscle: 'Glúteos',
     equipment: 'Máquina',
     aliases: ['glute kickback machine'],
@@ -2004,7 +2004,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'hip_abduction_machine',
     name: 'Abdutora (glúteo médio)',
-    gif: require('./exercises/hip_abduction_machine.gif'),
+    gif: require('./exercises/hip_abduction_machine.mp4'),
     primaryMuscle: 'Glúteos',
     equipment: 'Máquina',
     aliases: ['hip abduction machine'],
@@ -2017,7 +2017,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'abduction_cable',
     name: 'Abdução de quadril no cabo',
-    gif: require('./exercises/abduction_cable.gif'),
+    gif: require('./exercises/abduction_cable.mp4'),
     primaryMuscle: 'Glúteos',
     equipment: 'Cabo',
     aliases: ['cable hip abduction'],
@@ -2031,7 +2031,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'frog_pumps',
     name: 'Frog pumps',
-    gif: require('./exercises/frog_pumps.gif'),
+    gif: require('./exercises/frog_pumps.mp4'),
     primaryMuscle: 'Glúteos',
     equipment: 'Peso corporal',
     aliases: ['frog pumps'],
@@ -2041,7 +2041,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'reverse_hyper',
     name: 'Reverse hyper',
-    gif: require('./exercises/reverse_hyper.gif'),
+    gif: require('./exercises/reverse_hyper.mp4'),
     primaryMuscle: 'Glúteos',
     equipment: 'Outro',
     aliases: ['reverse hyper'],
@@ -2059,7 +2059,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'romanian_deadlift_barbell',
     name: 'Stiff / RDL (barra)',
-    gif: require('./exercises/romanian_deadlift_barbell.gif'),
+    gif: require('./exercises/romanian_deadlift_barbell.mp4'),
     primaryMuscle: 'Posterior',
     equipment: 'Barra',
     aliases: ['romanian deadlift', 'rdl', 'stiff'],
@@ -2074,7 +2074,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'romanian_deadlift_dumbbell',
     name: 'Stiff / RDL (halteres)',
-    gif: require('./exercises/romanian_deadlift_dumbbell.gif'),
+    gif: require('./exercises/romanian_deadlift_dumbbell.mp4'),
     primaryMuscle: 'Posterior',
     equipment: 'Halter',
     aliases: ['dumbbell rdl', 'stiff halteres'],
@@ -2089,7 +2089,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'rdl_pause',
     name: 'RDL com pausa',
-    gif: require('./exercises/rdl_pause.gif'),
+    gif: require('./exercises/rdl_pause.mp4'),
     primaryMuscle: 'Posterior',
     equipment: 'Barra',
     aliases: ['paused rdl'],
@@ -2105,7 +2105,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'leg_curl_lying',
     name: 'Mesa flexora',
-    gif: require('./exercises/leg_curl_lying.gif'),
+    gif: require('./exercises/leg_curl_lying.mp4'),
     primaryMuscle: 'Posterior',
     equipment: 'Máquina',
     aliases: ['lying leg curl', 'flexora deitado'],
@@ -2115,7 +2115,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'leg_curl_seated',
     name: 'Flexora sentado',
-    gif: require('./exercises/leg_curl_seated.gif'),
+    gif: require('./exercises/leg_curl_seated.mp4'),
     primaryMuscle: 'Posterior',
     equipment: 'Máquina',
     aliases: ['seated leg curl', 'flexora sentado'],
@@ -2125,7 +2125,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'leg_curl_standing',
     name: 'Flexora em pé',
-    gif: require('./exercises/leg_curl_standing.gif'),
+    gif: require('./exercises/leg_curl_standing.mp4'),
     primaryMuscle: 'Posterior',
     equipment: 'Máquina',
     aliases: ['standing leg curl'],
@@ -2135,7 +2135,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'leg_curl_single_leg',
     name: 'Flexora unilateral',
-    gif: require('./exercises/leg_curl_single_leg.gif'),
+    gif: require('./exercises/leg_curl_single_leg.mp4'),
     primaryMuscle: 'Posterior',
     equipment: 'Máquina',
     aliases: ['single leg curl'],
@@ -2149,7 +2149,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'nordic_curl',
     name: 'Nordic curl',
-    gif: require('./exercises/nordic_curl.gif'),
+    gif: require('./exercises/nordic_curl.mp4'),
     primaryMuscle: 'Posterior',
     equipment: 'Outro',
     aliases: ['nordic hamstring curl'],
@@ -2178,7 +2178,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'single_leg_rdl',
     name: 'RDL unilateral',
-    gif: require('./exercises/single_leg_rdl.gif'),
+    gif: require('./exercises/single_leg_rdl.mp4'),
     primaryMuscle: 'Posterior',
     equipment: 'Halter',
     aliases: ['single leg rdl'],
@@ -2197,7 +2197,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'back_squat',
     name: 'Agachamento livre',
-    gif: require('./exercises/back_squat.gif'),
+    gif: require('./exercises/back_squat.mp4'),
     primaryMuscle: 'Pernas',
     equipment: 'Barra',
     aliases: ['back squat', 'agachamento'],
@@ -2213,7 +2213,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'front_squat',
     name: 'Agachamento frontal',
-    gif: require('./exercises/front_squat.gif'),
+    gif: require('./exercises/front_squat.mp4'),
     primaryMuscle: 'Pernas',
     equipment: 'Barra',
     aliases: ['front squat'],
@@ -2228,7 +2228,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'pause_squat',
     name: 'Agachamento com pausa',
-    gif: require('./exercises/pause_squat.gif'),
+    gif: require('./exercises/pause_squat.mp4'),
     primaryMuscle: 'Pernas',
     equipment: 'Barra',
     aliases: ['paused squat'],
@@ -2243,7 +2243,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'box_squat',
     name: 'Agachamento no box',
-    gif: require('./exercises/box_squat.gif'),
+    gif: require('./exercises/box_squat.mp4'),
     primaryMuscle: 'Pernas',
     equipment: 'Barra',
     aliases: ['box squat'],
@@ -2258,7 +2258,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'goblet_squat',
     name: 'Agachamento goblet',
-    gif: require('./exercises/goblet_squat.gif'),
+    gif: require('./exercises/goblet_squat.mp4'),
     primaryMuscle: 'Pernas',
     equipment: 'Halter',
     aliases: ['goblet squat'],
@@ -2273,7 +2273,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'smith_squat',
     name: 'Agachamento no smith',
-    gif: require('./exercises/smith_squat.gif'),
+    gif: require('./exercises/smith_squat.mp4'),
     primaryMuscle: 'Pernas',
     equipment: 'Smith',
     aliases: ['smith squat'],
@@ -2289,7 +2289,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'hack_squat_machine',
     name: 'Hack squat',
-    gif: require('./exercises/hack_squat_machine.gif'),
+    gif: require('./exercises/hack_squat_machine.mp4'),
     primaryMuscle: 'Pernas',
     equipment: 'Máquina',
     aliases: ['hack squat'],
@@ -2302,7 +2302,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'pendulum_squat',
     name: 'Pendulum squat',
-    gif: require('./exercises/pendulum_squat.gif'),
+    gif: require('./exercises/pendulum_squat.mp4'),
     primaryMuscle: 'Pernas',
     equipment: 'Máquina',
     aliases: ['pendulum squat'],
@@ -2316,7 +2316,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'leg_press_45',
     name: 'Leg press 45°',
-    gif: require('./exercises/leg_press_45.gif'),
+    gif: require('./exercises/leg_press_45.mp4'),
     primaryMuscle: 'Pernas',
     equipment: 'Máquina',
     aliases: ['leg press', 'legpress'],
@@ -2330,7 +2330,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'leg_press_horizontal',
     name: 'Leg press horizontal',
-    gif: require('./exercises/leg_press_horizontal.gif'),
+    gif: require('./exercises/leg_press_horizontal.mp4'),
     primaryMuscle: 'Pernas',
     equipment: 'Máquina',
     aliases: ['horizontal leg press'],
@@ -2344,7 +2344,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'leg_press_single_leg',
     name: 'Leg press unilateral',
-    gif: require('./exercises/leg_press_single_leg.gif'),
+    gif: require('./exercises/leg_press_single_leg.mp4'),
     primaryMuscle: 'Pernas',
     equipment: 'Máquina',
     aliases: ['single leg press'],
@@ -2359,7 +2359,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'leg_extension_machine',
     name: 'Cadeira extensora',
-    gif: require('./exercises/leg_extension_machine.gif'),
+    gif: require('./exercises/leg_extension_machine.mp4'),
     primaryMuscle: 'Pernas',
     equipment: 'Máquina',
     aliases: ['leg extension', 'extensora'],
@@ -2369,7 +2369,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'leg_extension_single_leg',
     name: 'Extensora unilateral',
-    gif: require('./exercises/leg_extension_single_leg.gif'),
+    gif: require('./exercises/leg_extension_single_leg.mp4'),
     primaryMuscle: 'Pernas',
     equipment: 'Máquina',
     aliases: ['single leg extension'],
@@ -2383,7 +2383,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'split_squat',
     name: 'Agachamento búlgaro',
-    gif: require('./exercises/split_squat.gif'),
+    gif: require('./exercises/split_squat.mp4'),
     primaryMuscle: 'Pernas',
     equipment: 'Halter',
     aliases: ['bulgarian split squat', 'búlgaro'],
@@ -2398,7 +2398,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'barbell_bulgarian_split_squat',
     name: 'Búlgaro com barra',
-    gif: require('./exercises/barbell_bulgarian_split_squat.gif'),
+    gif: require('./exercises/barbell_bulgarian_split_squat.mp4'),
     primaryMuscle: 'Pernas',
     equipment: 'Barra',
     aliases: ['barbell bulgarian split squat'],
@@ -2413,7 +2413,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'lunges_walking',
     name: 'Afundo caminhando',
-    gif: require('./exercises/lunges_walking.gif'),
+    gif: require('./exercises/lunges_walking.mp4'),
     primaryMuscle: 'Pernas',
     equipment: 'Halter',
     aliases: ['walking lunges', 'passada'],
@@ -2428,7 +2428,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'walking_lunge_barbell',
     name: 'Passada com barra',
-    gif: require('./exercises/walking_lunge_barbell.gif'),
+    gif: require('./exercises/walking_lunge_barbell.mp4'),
     primaryMuscle: 'Pernas',
     equipment: 'Barra',
     aliases: ['barbell walking lunge'],
@@ -2443,7 +2443,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'lunges_reverse',
     name: 'Afundo reverso',
-    gif: require('./exercises/lunges_reverse.gif'),
+    gif: require('./exercises/lunges_reverse.mp4'),
     primaryMuscle: 'Pernas',
     equipment: 'Halter',
     aliases: ['reverse lunge'],
@@ -2458,7 +2458,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'reverse_lunge_barbell',
     name: 'Afundo reverso com barra',
-    gif: require('./exercises/reverse_lunge_barbell.gif'),
+    gif: require('./exercises/reverse_lunge_barbell.mp4'),
     primaryMuscle: 'Pernas',
     equipment: 'Barra',
     aliases: ['barbell reverse lunge'],
@@ -2473,7 +2473,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'step_up',
     name: 'Step-up',
-    gif: require('./exercises/step_up.gif'),
+    gif: require('./exercises/step_up.mp4'),
     primaryMuscle: 'Pernas',
     equipment: 'Halter',
     aliases: ['step up'],
@@ -2489,7 +2489,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'adductor_machine',
     name: 'Cadeira adutora',
-    gif: require('./exercises/adductor_machine.gif'),
+    gif: require('./exercises/adductor_machine.mp4'),
     primaryMuscle: 'Pernas',
     equipment: 'Máquina',
     aliases: ['adductor machine', 'adutora'],
@@ -2499,7 +2499,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'abductor_machine',
     name: 'Cadeira abdutora',
-    gif: require('./exercises/abductor_machine.gif'),
+    gif: require('./exercises/abductor_machine.mp4'),
     primaryMuscle: 'Pernas',
     equipment: 'Máquina',
     aliases: ['abductor machine', 'abdutora'],
@@ -2513,7 +2513,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'overhead_press_barbell',
     name: 'Desenvolvimento militar',
-    gif: require('./exercises/overhead_press_barbell.gif'),
+    gif: require('./exercises/overhead_press_barbell.mp4'),
     primaryMuscle: 'Ombros',
     equipment: 'Barra',
     aliases: ['overhead press', 'military press'],
@@ -2543,7 +2543,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'arnold_press',
     name: 'Arnold press',
-    gif: require('./exercises/arnold_press.gif'),
+    gif: require('./exercises/arnold_press.mp4'),
     primaryMuscle: 'Ombros',
     equipment: 'Halter',
     aliases: ['arnold press'],
@@ -2558,7 +2558,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'seated_dumbbell_press',
     name: 'Desenvolvimento sentado (halteres)',
-    gif: require('./exercises/seated_dumbbell_press.gif'),
+    gif: require('./exercises/seated_dumbbell_press.mp4'),
     primaryMuscle: 'Ombros',
     equipment: 'Halter',
     aliases: ['seated dumbbell press'],
@@ -2572,7 +2572,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'machine_shoulder_press',
     name: 'Desenvolvimento na máquina',
-    gif: require('./exercises/machine_shoulder_press.gif'),
+    gif: require('./exercises/machine_shoulder_press.mp4'),
     primaryMuscle: 'Ombros',
     equipment: 'Máquina',
     aliases: ['machine shoulder press'],
@@ -2586,7 +2586,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'smith_shoulder_press',
     name: 'Desenvolvimento no smith',
-    gif: require('./exercises/smith_shoulder_press.gif'),
+    gif: require('./exercises/smith_shoulder_press.mp4'),
     primaryMuscle: 'Ombros',
     equipment: 'Smith',
     aliases: ['smith shoulder press'],
@@ -2600,7 +2600,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'landmine_press',
     name: 'Landmine press',
-    gif: require('./exercises/landmine_press.gif'),
+    gif: require('./exercises/landmine_press.mp4'),
     primaryMuscle: 'Ombros',
     equipment: 'Outro',
     aliases: ['landmine press'],
@@ -2616,7 +2616,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'lateral_raise_dumbbell',
     name: 'Elevação lateral (halteres)',
-    gif: require('./exercises/lateral_raise_dumbbell.gif'),
+    gif: require('./exercises/lateral_raise_dumbbell.mp4'),
     primaryMuscle: 'Ombros',
     equipment: 'Halter',
     aliases: ['lateral raise', 'side raise'],
@@ -2644,7 +2644,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'lean_away_lateral_raise',
     name: 'Elevação lateral inclinada',
-    gif: require('./exercises/lean_away_lateral_raise.webp'),
+    gif: require('./exercises/lean_away_lateral_raise.jpg'),
     primaryMuscle: 'Ombros',
     equipment: 'Halter',
     aliases: ['lean away lateral raise'],
@@ -2714,7 +2714,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'front_raise_plate',
     name: 'Elevação frontal com anilha',
-    gif: require('./exercises/front_raise_plate.gif'),
+    gif: require('./exercises/front_raise_plate.mp4'),
     primaryMuscle: 'Ombros',
     equipment: 'Outro',
     aliases: ['plate front raise'],
@@ -2729,7 +2729,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'rear_delt_fly_dumbbell',
     name: 'Crucifixo inverso (halteres)',
-    gif: require('./exercises/rear_delt_fly_dumbbell.gif'),
+    gif: require('./exercises/rear_delt_fly_dumbbell.mp4'),
     primaryMuscle: 'Ombros',
     equipment: 'Halter',
     aliases: ['rear delt fly', 'reverse fly'],
@@ -2743,7 +2743,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'rear_delt_fly_machine',
     name: 'Crucifixo inverso na máquina',
-    gif: require('./exercises/rear_delt_fly_machine.gif'),
+    gif: require('./exercises/rear_delt_fly_machine.mp4'),
     primaryMuscle: 'Ombros',
     equipment: 'Máquina',
     aliases: ['reverse pec deck', 'rear delt machine'],
@@ -2756,7 +2756,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'rear_delt_cable',
     name: 'Crucifixo inverso no cabo',
-    gif: require('./exercises/rear_delt_cable.gif'),
+    gif: require('./exercises/rear_delt_cable.mp4'),
     primaryMuscle: 'Ombros',
     equipment: 'Cabo',
     aliases: ['cable rear delt fly'],
@@ -2770,7 +2770,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'machine_rear_delt',
     name: 'Posterior de ombro na máquina',
-    gif: require('./exercises/machine_rear_delt.gif'),
+    gif: require('./exercises/machine_rear_delt.mp4'),
     primaryMuscle: 'Ombros',
     equipment: 'Máquina',
     aliases: ['rear delt machine'],
@@ -2784,7 +2784,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'face_pull',
     name: 'Face pull',
-    gif: require('./exercises/face_pull.gif'),
+    gif: require('./exercises/face_pull.mp4'),
     primaryMuscle: 'Ombros',
     equipment: 'Cabo',
     aliases: ['face pull'],
@@ -2798,7 +2798,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'upright_row_barbell',
     name: 'Remada alta (barra)',
-    gif: require('./exercises/upright_row_barbell.gif'),
+    gif: require('./exercises/upright_row_barbell.mp4'),
     primaryMuscle: 'Ombros',
     equipment: 'Barra',
     aliases: ['upright row', 'remada alta'],
@@ -2812,7 +2812,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'upright_row_cable',
     name: 'Remada alta no cabo',
-    gif: require('./exercises/upright_row_cable.gif'),
+    gif: require('./exercises/upright_row_cable.mp4'),
     primaryMuscle: 'Ombros',
     equipment: 'Cabo',
     aliases: ['cable upright row'],
@@ -2827,7 +2827,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'shrug_dumbbell',
     name: 'Encolhimento (halteres)',
-    gif: require('./exercises/shrug_dumbbell.gif'),
+    gif: require('./exercises/shrug_dumbbell.mp4'),
     primaryMuscle: 'Ombros',
     equipment: 'Halter',
     aliases: ['dumbbell shrug'],
@@ -2837,7 +2837,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'shrug_barbell',
     name: 'Encolhimento (barra)',
-    gif: require('./exercises/shrug_barbell.gif'),
+    gif: require('./exercises/shrug_barbell.mp4'),
     primaryMuscle: 'Ombros',
     equipment: 'Barra',
     aliases: ['barbell shrug'],
@@ -2847,7 +2847,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'shrug_machine',
     name: 'Encolhimento na máquina',
-    gif: require('./exercises/shrug_machine.gif'),
+    gif: require('./exercises/shrug_machine.mp4'),
     primaryMuscle: 'Ombros',
     equipment: 'Máquina',
     aliases: ['machine shrug'],
@@ -2884,7 +2884,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'cuban_press',
     name: 'Cuban press',
-    gif: require('./exercises/cuban_press.gif'),
+    gif: require('./exercises/cuban_press.mp4'),
     primaryMuscle: 'Ombros',
     equipment: 'Halter',
     aliases: ['cuban press'],
@@ -2902,7 +2902,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'triceps_pushdown_rope',
     name: 'Tríceps corda',
-    gif: require('./exercises/triceps_pushdown_rope.gif'),
+    gif: require('./exercises/triceps_pushdown_rope.mp4'),
     primaryMuscle: 'Tríceps',
     equipment: 'Cabo',
     aliases: ['rope pushdown', 'triceps rope'],
@@ -2915,7 +2915,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'triceps_pushdown_bar',
     name: 'Tríceps barra no pulley',
-    gif: require('./exercises/triceps_pushdown_bar.gif'),
+    gif: require('./exercises/triceps_pushdown_bar.mp4'),
     primaryMuscle: 'Tríceps',
     equipment: 'Cabo',
     aliases: ['bar pushdown', 'triceps pushdown'],
@@ -2928,7 +2928,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'triceps_pushdown_v',
     name: 'Tríceps V no pulley',
-    gif: require('./exercises/triceps_pushdown_v.gif'),
+    gif: require('./exercises/triceps_pushdown_v.mp4'),
     primaryMuscle: 'Tríceps',
     equipment: 'Cabo',
     aliases: ['v bar pushdown'],
@@ -2941,7 +2941,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'reverse_grip_pushdown',
     name: 'Tríceps pulley pegada reversa',
-    gif: require('./exercises/reverse_grip_pushdown.gif'),
+    gif: require('./exercises/reverse_grip_pushdown.mp4'),
     primaryMuscle: 'Tríceps',
     equipment: 'Cabo',
     aliases: ['reverse grip pushdown'],
@@ -2955,7 +2955,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'overhead_triceps_extension_rope',
     name: 'Extensão acima da cabeça (corda)',
-    gif: require('./exercises/overhead_triceps_extension_rope.gif'),
+    gif: require('./exercises/overhead_triceps_extension_rope.mp4'),
     primaryMuscle: 'Tríceps',
     equipment: 'Cabo',
     aliases: ['overhead rope extension'],
@@ -2995,7 +2995,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'skullcrusher_barbell',
     name: 'Tríceps testa (barra reta)',
-    gif: require('./exercises/skullcrusher_barbell.gif'),
+    gif: require('./exercises/skullcrusher_barbell.mp4'),
     primaryMuscle: 'Tríceps',
     equipment: 'Barra',
     aliases: ['barbell skullcrusher'],
@@ -3008,7 +3008,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'cable_skullcrusher',
     name: 'Tríceps testa no cabo',
-    gif: require('./exercises/cable_skullcrusher.gif'),
+    gif: require('./exercises/cable_skullcrusher.mp4'),
     primaryMuscle: 'Tríceps',
     equipment: 'Cabo',
     aliases: ['cable skullcrusher'],
@@ -3022,7 +3022,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'close_grip_bench_press',
     name: 'Supino fechado',
-    gif: require('./exercises/close_grip_bench_press.gif'),
+    gif: require('./exercises/close_grip_bench_press.mp4'),
     primaryMuscle: 'Tríceps',
     equipment: 'Barra',
     aliases: ['close grip bench press', 'supino fechado'],
@@ -3051,7 +3051,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'dips_triceps',
     name: 'Paralelas (ênfase tríceps)',
-    gif: require('./exercises/dips_triceps.gif'),
+    gif: require('./exercises/dips_triceps.mp4'),
     primaryMuscle: 'Tríceps',
     equipment: 'Peso corporal',
     aliases: ['triceps dips'],
@@ -3066,7 +3066,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'bench_dips',
     name: 'Mergulho no banco',
-    gif: require('./exercises/bench_dips.gif'),
+    gif: require('./exercises/bench_dips.mp4'),
     primaryMuscle: 'Tríceps',
     equipment: 'Peso corporal',
     aliases: ['bench dips'],
@@ -3080,7 +3080,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'diamond_push_up_triceps',
     name: 'Flexão diamante',
-    gif: require('./exercises/diamond_push_up_triceps.gif'),
+    gif: require('./exercises/diamond_push_up_triceps.mp4'),
     primaryMuscle: 'Tríceps',
     equipment: 'Peso corporal',
     aliases: ['diamond push up'],
@@ -3096,7 +3096,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'overhead_triceps_extension_dumbbell',
     name: 'Tríceps francês (halter)',
-    gif: require('./exercises/overhead_triceps_extension_dumbbell.gif'),
+    gif: require('./exercises/overhead_triceps_extension_dumbbell.mp4'),
     primaryMuscle: 'Tríceps',
     equipment: 'Halter',
     aliases: ['overhead dumbbell extension', 'french press'],
@@ -3109,7 +3109,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'triceps_kickback',
     name: 'Coice de tríceps',
-    gif: require('./exercises/triceps_kickback.gif'),
+    gif: require('./exercises/triceps_kickback.mp4'),
     primaryMuscle: 'Tríceps',
     equipment: 'Halter',
     aliases: ['triceps kickback'],
@@ -3136,7 +3136,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'machine_triceps_extension',
     name: 'Extensão de tríceps na máquina',
-    gif: require('./exercises/machine_triceps_extension.gif'),
+    gif: require('./exercises/machine_triceps_extension.mp4'),
     primaryMuscle: 'Tríceps',
     equipment: 'Máquina',
     aliases: ['triceps extension machine'],
@@ -3160,7 +3160,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'jm_press',
     name: 'JM press',
-    gif: require('./exercises/jm_press.gif'),
+    gif: require('./exercises/jm_press.mp4'),
     primaryMuscle: 'Tríceps',
     equipment: 'Barra',
     aliases: ['jm press'],
@@ -3174,7 +3174,7 @@ export const EXERCISE_CATALOG: ExerciseCatalogItem[] = uniqById([
   {
     id: 'tate_press',
     name: 'Tate press',
-    gif: require('./exercises/tate_press.gif'),
+    gif: require('./exercises/tate_press.mp4'),
     primaryMuscle: 'Tríceps',
     equipment: 'Halter',
     aliases: ['tate press'],
